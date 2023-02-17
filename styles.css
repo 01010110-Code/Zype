@@ -15,11 +15,7 @@ html{
     text-align: center;
     padding-top: 32px;
   }
-  .buttons-right{
-    font-family: arial;
-    font-size: 15px;
-    margin-left: 170px;
-  }
+
   a{
     color: #D8D8D8;
     padding-left: 3px;
@@ -304,7 +300,9 @@ footer{
   display: block;
   width: 100%;
 }
-
+video{
+  height: 50%;
+}
 .video-headline {
   position: absolute;
   top: 50%;
@@ -330,7 +328,7 @@ footer{
   transform: translate(-50%, -50%);
   font-size: 1.1rem;
   color: white;
-  background-color: #0A1B2A;
+  background-color: #14171D;
   border: none;
   border-radius: 25px;
   padding: 10px;
@@ -353,8 +351,6 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0px solid;
-  border-radius: 20px;
 }
 
 .inner-grid {
@@ -374,6 +370,9 @@ footer{
 }
 #block-image{
   width: 96%;
+  margin-right: -12px;
+  margin-top: -7px;
+  margin-bottom: -13px;
 }
 #block-header{
   font-weight: lighter;
@@ -384,5 +383,31 @@ footer{
   width: auto;
   padding-right: 30px;
   padding-left: 30px;
-  padding-top: 40px;
+  padding-top: 44px;
+}
+.block-button{
+  background-color:#0D0D12 ;
+  color: white;
+  
+  border-radius: 30px;
+  height: 36px;
+  width: 180px;
+  font-size: 14px;
+  border: 0px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 17px;
+}
+.block-button:hover{
+  background-color: #ffffff;
+  color: black;
+}
+#right-links1{
+  color: white;
+  font-weight:bolder;
+  padding-left: 40px;
+}
+#right-links{
+  color: white;
+  font-weight:bolder;
 }
