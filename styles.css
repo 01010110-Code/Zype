@@ -341,12 +341,18 @@ footer{
   color: black;
   background-color: white;
 }
-#product-img{
-  width:  70%;
-  padding: 60px;
+.grid-containery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
-.products-banner{
-  border: 0.00;
-  border-radius: 50px;
-  background-color: #16181E;
+
+.grid-itemy {
+  background-color: #14171D;
+  padding: 0px;
+  text-align: center;
+}
+#product-header-99{
+  color: white;
+  font-size: 23px;
 }
