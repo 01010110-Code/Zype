@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>Zipe | Sign-Up</title>
-    <img src="assets/moon.png" alt="Zipe Logo">
+    <img src="assets/moon.png" alt="Zipe Logo" href="index.html">
   </head>
   <br>
   <br>
@@ -19,23 +19,41 @@
         <label for="full-name">Full Name</label>
         <input type="text" id="full-name" name="full-name" required>
 
-        <label for="country" id="country" name="country" required>Select Your Country</label>
-            <select id="country" name="country">
-                <option value="" disabled selected>Select your country</option>
-                <option value="USA">United States</option>
-                <option value="Canada">Canada</option>
-                <option value="Mexico">Mexico</option>
-                <option value="UK">United Kingdom</option>
-                <option value="France">France</option>
-            </select>
+
 
 		<label for="email">Work Email:</label>
 		<input type="email" id="email" name="email" required>
 
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required>
+        <label for="country" id="country" name="country" required>Select Your Country</label>
+        <select id="country" name="country">
+            <option value="" disabled selected>Select your country</option>
+            <option value="USA">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+            <option value="UK">United Kingdom</option>
+            <option value="France">France</option>
+        </select>
 
+        <label for="referrer" id="referrer" name="referrer" optional>Where Did You First Hear About Us? (Optional)</label>
+        <select id="referrer" name="referrer">
+            <option value="" disabled selected>Choose an option</option>
+            <option value="Press">Press</option>
+            <option value="WOM">Word Of Mouth</option>
+            <option value="Podcast">Podcast</option>
+            <option value="Search">Search</option>
+            <option value="Twitter">Twitter</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="FB-IG">Facebook/Instagram</option>
+            <option value="Other">Other</option>
+            </select>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" minlength="8" placeholder="Must be Atleast 8 Characters." required>
+
+        <p class="policies">By continuing you agree to the Zipe <a href="#tos">terms of service</a> and <a href="#privacy">privacy policy</a>.
+            <br>
+            <br>
 		<input type="submit" value="Submit">
+
 	</form>
 </div>
   </body>

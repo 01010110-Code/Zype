@@ -6,8 +6,12 @@ img{
     width: 2.5%;
     padding: 14px;
 }
+.sign-up-form{
+    padding-right: 400px;
+    padding-left: 400px;
+}
 #headline{
-    color: white;
+    color: rgb(223, 221, 221);
     text-align: center;
     font-size: 27px;
     font-weight: 200;
@@ -19,7 +23,7 @@ img{
     font-weight: 100;
 }
 form {
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -45,9 +49,19 @@ input[type="submit"] {
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    width: 120px;
     cursor: pointer;
 }
 input[type="submit"]:hover {
     background-color: #3e55a1;
+}
+.policies{
+    color: rgb(154, 154, 154);
+    font-size: 12px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color: #3e55a1;
 }
