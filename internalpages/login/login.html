@@ -6,34 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>Zipe | Login</title>
-    <div class ="header">
-    <img id="logo" src="https://i.ibb.co/FmdcwhH/Moon-light-logo-template-1.png" alt="zipe logo">
-      <div class="menu">
-        <a style="text-decoration:none"  href="#products">Products</a>
-        <a style="text-decoration:none"  href="#solutions">Solutions</a>
-        <a style="text-decoration:none"  href="#resources">Resources</a>
-        <a style="text-decoration:none"  id="right-links1" href="#login">Login</a>
-        <a style="text-decoration:none" id="right-links" href="#startnow">Start Now</a>
-      </div>
-    </div>
   </head>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   <body>
     <div class="grid-container">
-        <div class="block1"></div>
+        <div class="block1">
+            <img src="assets/space.jpg" alt="Space">
+        </div>
+
         <div class="block2">
             <h2 id="headline">Welcome to Zipe!</h2>
             <h5 id="subheader">Don't have an account?<a id="clickhere-link" style="text-decoration: none" href="#sign-up"> Click Here.</a></h5>
             <form class="form-horizontal" role="login" id="loginForm">
-                <fieldset id="email" type="email" email="email" placeholder="Your Email Address" required>Email Address</fieldset>
-                <fieldset id="password" type="password" password="password" placeholder="Your Password" required>Password</fieldset>
-                <button id="login-button" type="submit">Login</button>
+                <input type="email" id="email" placeholder="Enter your email address" autocomplete="off" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <input type="submit" id="submit" placeholder="Submit">
             </form>
-            <h5>Forgot Your Password? <a href="#password-recovery">Click Here</a></h5>
+            <h5 style="padding-top: -20px;" id="password-recovery">Forgot Your Password? <a style="color: #3D5EC7 ; text-decoration: none" href="#password-recovery">Click Here</a></h5>
         </div>
       </div>
       

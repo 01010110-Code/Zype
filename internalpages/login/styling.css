@@ -6,7 +6,7 @@ html{
     float: left;
     width: 10%;
     padding-left: 20px;
-    padding-top: 18px;
+    padding-top: 12px;
   }
   .menu{
     font-family: arial;
@@ -30,25 +30,66 @@ html{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
+    padding: 0px;
   }
   
   .block1 {
-    background-image: url("assets/space.jpg");
-    background-color: #0D0D12;
+    background-color: transparent;
 
   }
   .block2 {
     background-color: transparent;
     height: auto;
+    padding-top: 110px;
+    padding-left: -20px;
   }
   #headline{
     color: white;
     text-align: center;
+    font-weight: 300;
+    font-size: 30px;
   }
-  #subheader{
-    color: white;
+  #subheader, #password-recovery{
+    color: rgb(177, 176, 176);
     text-align: center;
+    font-weight: lighter;
   }
   #clickhere-link{
     color: #3D5EC7;
   }
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #3D5EC7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+}
+input[type="submit"]:hover {
+    background-color: #465fb3;
+}
+img{
+    width: 100%;
+    padding: -10px;
+}
