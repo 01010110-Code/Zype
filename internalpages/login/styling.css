@@ -31,16 +31,19 @@ html{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
     padding: 0px;
+    border: none;
   }
   
   .block1 {
     background-color: transparent;
+    border: none;
 
   }
   .block2 {
     background-color: transparent;
     height: auto;
     padding-top: 110px;
+    border: none;
     padding-left: -20px;
   }
   #headline{
