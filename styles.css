@@ -25,7 +25,7 @@ html{
     color: white;
   }
   a:visited{
-    color: #CED8F6;
+    color: #d2d2d4;
   }
   .big-banner{
     color: #A4A4A4;
@@ -310,28 +310,30 @@ video{
 }
 .video-headline {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.6rem;
   color: #fff;
   text-shadow: 2px 2px 4px #000;
+  font-weight: 200;
 }
 .video-subheadline{
   position: absolute;
-  top: 57%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.8rem;
   color: #fff;
   text-shadow: 2px 2px 4px #000;
+  font-weight: 100;
 }
 .video-button{
   position: absolute;
-  top: 70%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: white;
   background-color: #14171D;
   border: none;
@@ -339,6 +341,7 @@ video{
   padding: 10px;
   width: 16%;
   font-weight: lighter;
+  cursor: pointer;
 }
 .video-button:hover{
   color: black;
