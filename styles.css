@@ -59,6 +59,7 @@ html{
     background-color: #D8D8D8;
     border-radius: 18px;
   }
+
   .content{
     padding: 0px;
     font-family: arial;
@@ -153,7 +154,7 @@ html{
     margin: 2px;
   }
 #customer-stories{
-  background-color: #20242C;
+  background-color: #324976;
   color: white;
   border: 0px;
   border-radius: 30px;
@@ -264,7 +265,7 @@ html{
 .grid-containerj {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: auto;
   justify-content: center;
   align-items: center;
   padding: 60px;
@@ -415,11 +416,33 @@ video{
   color: black;
 }
 #right-links1{
-  color: white;
-  font-weight:bolder;
+  color: rgb(228, 226, 226);
+  font-weight: 400;
   padding-left: 40px;
 }
 #right-links{
+  color: rgb(228, 226, 226);
+  font-weight: 400;
+}
+.two-buttons{
+  display: grid;
+  grid-template-columns: auto;
+}
+.casestudies{
   color: white;
-  font-weight:bolder;
+  box-sizing: border-box;
+  font-size: 15.5px;
+  width: 15%;
+  opacity: 1;
+  background-size: 100%;
+  background-color: #324976;
+  border: none;
+  border-radius: 18px;
+  padding: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.casestudies:hover{
+  color: black;
+  background-color: white;
 }
