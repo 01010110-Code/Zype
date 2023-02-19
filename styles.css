@@ -38,18 +38,22 @@ html{
     font-size: 13px;
   }
   .start-button{
-    color: black;
+    color: white;
     box-sizing: border-box;
     font-size: 15.5px;
-    width: 10%;
+    width: 15%;
     opacity: 1;
     background-size: 100%;
-    background-color: rgba(255,255,255);
+    background-color: #20242C;
     border: none;
     border-radius: 18px;
     padding: 10px;
     margin-bottom: 30px;
     cursor: pointer;
+  }
+  .start-button:hover{
+    color: black;
+    background-color: white;
   }
   #mybtn1:hover{
     background-color: #D8D8D8;
@@ -103,8 +107,8 @@ html{
     font-size: 13px;
   }
   .btn-client-info{
-    background-color: #ffffff;
-    color: black;
+    background-color: #20242C;
+    color: white;
     border-radius: 30px;
     height: 30px;
     width: 180px;
@@ -113,8 +117,8 @@ html{
     cursor: pointer;
   }
   .btn-client-info:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   .letter-1{
     color: #AC58FA;
@@ -155,6 +159,7 @@ html{
   border-radius: 30px;
   height: 37px;
   width: 170px;
+  cursor: pointer;
   float: right;
   margin-right: 30px ;
   margin-top: 20px;
@@ -237,19 +242,19 @@ html{
   margin-right: 85px;
 }
 #explore-button{
-  background-color: rgb(43, 43, 43);
+  background-color: #20242C;
   color: white;
   align-content: left;
   border: 0px transparent;
   border-radius: 15px;
-  width: 30% ;
+  width: 35% ;
   cursor: pointer;
   margin-bottom:20px;
   height: 35px;
 }
 #explore-button:hover{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 #imgrep{
   width:fill;
@@ -335,7 +340,7 @@ video{
   transform: translate(-50%, -50%);
   font-size: 1rem;
   color: white;
-  background-color: #14171D;
+  background-color: #20242C;
   border: none;
   border-radius: 25px;
   padding: 10px;
@@ -394,9 +399,8 @@ video{
   padding-top: 44px;
 }
 .block-button{
-  background-color:#0D0D12 ;
+  background-color:#20242C ;
   color: white;
-  
   border-radius: 30px;
   height: 36px;
   width: 180px;
