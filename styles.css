@@ -326,22 +326,22 @@ video{
 }
 .video-subheadline{
   position: absolute;
-  top: 47%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.8rem;
-  color: #fff;
+  font-size: 20px;
+  color: #d8d8d8;
   text-shadow: 2px 2px 4px #000;
   font-weight: 100;
 }
 .video-button{
   position: absolute;
-  top: 62%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1rem;
   color: white;
-  background-color: #20242C;
+  background-color: #324976;
   border: none;
   border-radius: 25px;
   padding: 10px;
