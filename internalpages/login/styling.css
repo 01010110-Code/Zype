@@ -1,8 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
  html, body {
     background:  #0D0D12;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+  }
+  body{
+    overflow-x: hidden;
   }
   .full-page {
     width: 100%;
@@ -38,10 +46,12 @@
     text-align: center;
     font-weight: 300;
     font-size: 30px;
+    margin-top: 50px;
   }
   #subheader{
     color: rgb(177, 176, 176);
     text-align: center;
+    margin-top: 10px;
     font-weight: lighter;
   }
   #clickhere-link{
