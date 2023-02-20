@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     <link rel="stylesheet" href="styling.css">
-    <link rel="icon" type="image/x-icon" href="internalpages/assets/moon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/newfavicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>Zipe | Login</title>
@@ -19,8 +19,10 @@
             <h2 id="headline">Welcome to Zipe!</h2>
             <h5 id="subheader">Don't have an account?<a id="clickhere-link" style="text-decoration: none" href="#sign-up"> Click Here.</a></h5>
             <form class="form-horizontal" role="login" id="loginForm">
+                <label for="login">Email:</label>
                 <input type="email" id="email" placeholder="Enter your email address" autocomplete="off" required>
-                <input type="password" id="password" placeholder="Enter your password" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" minlength="8" required>
                 <input type="submit" id="submit" placeholder="Submit">
             </form>
             <h5 style="padding-top: -20px;" id="password-recovery">Forgot Your Password? <a style="color: #3D5EC7 ; text-decoration: none" href="#password-recovery">Click Here</a></h5>
