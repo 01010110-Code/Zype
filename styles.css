@@ -2,8 +2,11 @@ html{
     background:  #0D0D12;
   }
 
-  h1{
+  h1,h2,h3,h4,h5,h6{
     font-family: 'F1',sans-serif;
+  }
+  p,a,button{
+    font-family: 'F1', sans-serif;
   }
   #logo{
     float: left;
@@ -40,7 +43,7 @@ html{
     border: 0px;
   }
   .menu{
-    font-family: arial;
+    font-family: 'F2';
     font-size: 15px;
     text-align: center;
     padding-top: 32px;
@@ -60,11 +63,11 @@ html{
   .big-banner{
     color: #A4A4A4;
     text-align: center;
-    font-family: arial;
+    font-family: 'F1';
   }
   .short-description{
     padding: 0px;
-    font-family: arial;
+    font-family: 'F2';
     font-size: 13px;
   }
   .start-button{
@@ -92,7 +95,7 @@ html{
 
   .content{
     padding: 0px;
-    font-family: arial;
+    font-family: 'F2';
     font-size: 13px;
     float: center !important;
   }
@@ -154,7 +157,7 @@ html{
   }
  
   .product-headers{
-    font-family: Arial;
+    font-family: 'F1';
     margin-left: 200px;
     margin-bottom: 30px;
   }
@@ -178,11 +181,11 @@ html{
   color: black;
 }
 #product-headers2{
-  font-family: Arial;
+  font-family: 'F1';
 }
 #header2{
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'F1';
   font-weight: lighter;
 }
 #subheader2{
