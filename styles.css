@@ -1,8 +1,10 @@
 html{
     background:  #0D0D12;
-    font-family: Arial, Helvetica, sans-serif;
   }
 
+  h1{
+    font-family: 'F1',sans-serif;
+  }
   #logo{
     float: left;
     width: 14%;
@@ -17,7 +19,7 @@ html{
     width: 90px;
     height: 30px;
     border: 0px;
-    margin-left: 70px;
+    margin-left: 120px;
     cursor: pointer;
   }
   .header-button:hover{
@@ -478,3 +480,4 @@ video{
   font-size: 12px;
   margin-bottom: 0px;
 }
+
