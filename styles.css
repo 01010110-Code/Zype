@@ -147,8 +147,9 @@ html{
     border-radius: 30px;
     height: 30px;
     width: 180px;
-    border: 0px;
     position: relative;
+    border: 0px;
+    
     cursor: pointer;
   }
   .btn-client-info:hover{
