@@ -3,7 +3,7 @@ html{
   }
 img{
     width: 9.5%;
-    padding: 14px;
+    padding: 30px;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'F1',sans-serif;
@@ -16,10 +16,10 @@ h1,h2,h3,h4,h5,h6{
     padding-left: 400px;
 }
 #headline{
-    color: rgb(223, 221, 221);
+    color: rgb(235, 234, 234);
     text-align: center;
-    font-size: 27px;
-    font-weight: 200;
+    font-size: 29px;
+    font-weight: 300;
 }
 #subheader{
     color: rgb(154, 154, 154);
@@ -69,4 +69,7 @@ input[type="submit"]:hover {
 a{
     text-decoration: none;
     color: #3e55a1;
+}
+input{
+    background-color: rgb(215, 213, 213);
 }
