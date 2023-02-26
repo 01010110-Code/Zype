@@ -1,7 +1,12 @@
 html, body {
     background:  #0D0D12;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'F1',sans-serif; 
+  }
+  p,a,button, input, select, textarea,form, label{
+    font-family: 'F2', sans-serif;
   }
   body{
     overflow-x: hidden;
@@ -40,11 +45,12 @@ html, body {
     font-weight: 300;
     font-size: 30px;
     margin-top: 50px;
+    margin-bottom: 8px;
   }
   #subheader{
     color: rgb(177, 176, 176);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     font-weight: lighter;
   }
   #clickhere-link{
@@ -78,15 +84,18 @@ input[type="submit"] {
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     width: 45%;
+    display: block;
+    margin: auto;
+
 }
 input[type="submit"]:hover {
     background-color: #465fb3;
 }
 img{
-    width: 110%;
+    width: 107%;
     padding: -10px;
 }
 #password-recovery{
@@ -95,4 +104,20 @@ img{
   font-weight: lighter;
   margin-top: 0px;
   font-size: 12px;
+}
+.back-button {
+  background-color: #20242C;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 14%;
+  display: block;
+  margin: auto;
+  margin-top: 160px;
+}
+.back-button:hover{
+  color: black;
+  background-color: white;
 }
