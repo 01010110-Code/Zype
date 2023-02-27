@@ -27,7 +27,7 @@ html{
   }
   .header-button:hover{
     color: white;
-    background-color: black;
+    background-color: hsl(220, 40%, 33%);
   }
   .header-button2:hover{
     color: black;
@@ -166,7 +166,7 @@ html{
     margin: 2px;
   }
 #customer-stories{
-  background-color: #324976;
+  background-color: hsl(220, 40%, 33%);
   color: white;
   border: 0px;
   border-radius: 30px;

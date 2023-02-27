@@ -13,8 +13,6 @@ html, body {
   }
   .full-page {
     margin: 0px;
-    color: red;
-    background-color: yelow;
   }
   .grid-container {
     display: grid;
