@@ -85,11 +85,8 @@ html{
     cursor: pointer;
   }
   .start-button:hover{
-    background-color: #324976;
-  }
-  #mybtn1:hover{
-    background-color: #D8D8D8;
-    border-radius: 18px;
+    background-color:#324976;
+    color: white;
   }
 
   .content{
@@ -152,8 +149,8 @@ html{
     cursor: pointer;
   }
   .btn-client-info:hover{
-    background-color: white;
-    color: black;
+    background-color: #324976;
+    color: #ffffff;
   }
  
   .product-headers{
@@ -165,7 +162,7 @@ html{
     margin: 2px;
   }
 #customer-stories{
-  background-color: hsl(220, 40%, 33%);
+  background-color: #324976;
   color: white;
   border: 0px;
   border-radius: 30px;
@@ -177,8 +174,8 @@ html{
   margin-top: 20px;
 } 
 #customer-stories:hover{
-  background-color: white;
-  color: black;
+  background-color: #20242C;
+  color: white;
 }
 #product-headers2{
   font-family: 'F1';
@@ -265,8 +262,8 @@ html{
   height: 35px;
 }
 #explore-button:hover{
-  background-color: white;
-  color: black;
+  background-color: #324976;
+  color: white;
 }
 #imgrep{
   width:fill;
@@ -362,8 +359,8 @@ video{
   box-shadow: 5px 8px 10px 2px rgba(0,0,0,.8);
 }
 .video-button:hover{
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #20242C;
 }
 .outer-grid {
   display: grid;
@@ -424,8 +421,8 @@ video{
   margin-top: 17px;
 }
 .block-button:hover{
-  background-color: #ffffff;
-  color: black;
+  background-color: #324976;
+  color: white;;
 }
 #right-links1{
   color: rgb(228, 226, 226);
@@ -440,7 +437,7 @@ video{
   display: grid;
   grid-template-columns: auto;
 }
-.casestudies{
+.contact-button{
   color: white;
   box-sizing: border-box;
   font-size: 15.5px;
@@ -454,9 +451,9 @@ video{
   margin-bottom: 30px;
   cursor: pointer;
 }
-.casestudies:hover{
-  color: black;
-  background-color: white;
+.contact-button:hover{
+  color: white;
+  background-color: #20242C ;
 }
 #scrollBtn {
   display: none; 
@@ -476,7 +473,7 @@ video{
 }
 
 #scrollBtn:hover {
-  background-color: #000000; 
+  background-color: #20242C; 
 }
 #product-head{
   color: rgb(192, 192, 192);
