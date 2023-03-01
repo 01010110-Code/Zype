@@ -30,8 +30,8 @@ html{
     background-color: hsl(220, 40%, 33%);
   }
   .header-button2:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: hsl(220, 40%, 33%);
   }
   .header-button2{
     background-color: #20242C;
@@ -85,8 +85,7 @@ html{
     cursor: pointer;
   }
   .start-button:hover{
-    color: black;
-    background-color: white;
+    background-color: #324976;
   }
   #mybtn1:hover{
     background-color: #D8D8D8;
