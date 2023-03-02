@@ -1,5 +1,11 @@
+:root {
+  --dark: #20242C;
+  --light: #324976;
+  --background: #0D0D12;
+  --background2: #16181E;
+}
 html{
-    background:  #0D0D12;
+    background:  var(--background);
   }
 
   h1,h2,h3,h4,h5,h6{
@@ -16,7 +22,7 @@ html{
 
   }
   .header-button{
-    background-color: #20242C;
+    background-color: var(--dark);
     color: white;
     border-radius: 15px;
     width: 90px;
@@ -27,14 +33,14 @@ html{
   }
   .header-button:hover{
     color: white;
-    background-color: hsl(220, 40%, 33%);
+    background-color: var(--light);
   }
   .header-button2:hover{
     color: white;
-    background-color: hsl(220, 40%, 33%);
+    background-color: var(--light);
   }
   .header-button2{
-    background-color: #20242C;
+    background-color: var(--dark);
     color: white;
     width: 90px;
     cursor: pointer;
@@ -85,7 +91,7 @@ html{
     cursor: pointer;
   }
   .start-button:hover{
-    background-color:#324976;
+    background-color:var(--light);
     color: white;
   }
 
@@ -113,7 +119,7 @@ html{
   }
   
   .grid-item {
-    background-color: #16181E;
+    background-color: var(--background2);
     border-radius: 5px;
     text-align: center;
     height: auto;
@@ -138,7 +144,7 @@ html{
     font-size: 13px;
   }
   .btn-client-info{
-    background-color: #20242C;
+    background-color: var(--dark);
     color: white;
     border-radius: 30px;
     height: 30px;
@@ -149,7 +155,7 @@ html{
     cursor: pointer;
   }
   .btn-client-info:hover{
-    background-color: #324976;
+    background-color: var(--light);
     color: #ffffff;
   }
  
@@ -162,7 +168,7 @@ html{
     margin: 2px;
   }
 #customer-stories{
-  background-color: #324976;
+  background-color: var(--light);
   color: white;
   border: 0px;
   border-radius: 30px;
@@ -174,7 +180,7 @@ html{
   margin-top: 20px;
 } 
 #customer-stories:hover{
-  background-color: #20242C;
+  background-color: var(--dark);
   color: white;
 }
 #product-headers2{
@@ -251,7 +257,7 @@ html{
   margin-right: 85px;
 }
 #explore-button{
-  background-color: #20242C;
+  background-color: var(--dark);
   color: white;
   align-content: left;
   border: 0px transparent;
@@ -262,7 +268,7 @@ html{
   height: 35px;
 }
 #explore-button:hover{
-  background-color: #324976;
+  background-color: var(--light);
   color: white;
 }
 #imgrep{
@@ -349,7 +355,7 @@ video{
   transform: translate(-50%, -50%);
   font-size: 1rem;
   color: white;
-  background-color: #324976;
+  background-color: var(--light);
   border: none;
   border-radius: 25px;
   padding: 10px;
@@ -360,7 +366,7 @@ video{
 }
 .video-button:hover{
   color: #ffffff;
-  background-color: #20242C;
+  background-color: var(--dark);
 }
 .outer-grid {
   display: grid;
@@ -409,7 +415,7 @@ video{
   padding-top: 44px;
 }
 .block-button{
-  background-color:#20242C ;
+  background-color: var(--dark) ;
   color: white;
   border-radius: 30px;
   height: 36px;
@@ -421,7 +427,7 @@ video{
   margin-top: 17px;
 }
 .block-button:hover{
-  background-color: #324976;
+  background-color: var(--light);
   color: white;;
 }
 #right-links1{
@@ -444,7 +450,7 @@ video{
   width: 15%;
   opacity: 1;
   background-size: 100%;
-  background-color: #324976;
+  background-color: var(--light);
   border: none;
   border-radius: 18px;
   padding: 10px;
@@ -453,7 +459,7 @@ video{
 }
 .contact-button:hover{
   color: white;
-  background-color: #20242C ;
+  background-color: var(--dark) ;
 }
 #scrollBtn {
   display: none; 
@@ -463,7 +469,7 @@ video{
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-color: #324976;
+  background-color: var(--light);
   color: white;
   cursor: pointer;
   width: 120px;
@@ -473,7 +479,7 @@ video{
 }
 
 #scrollBtn:hover {
-  background-color: #20242C; 
+  background-color: var(--dark); 
 }
 #product-head{
   color: rgb(192, 192, 192);
