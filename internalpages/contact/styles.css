@@ -1,3 +1,9 @@
+:root {
+  --dark: #20242C;
+  --light: #324976;
+  --background: #0D0D12;
+  --background2: #16181E;
+}
 /* styling for the whole page, to fit the color scheme*/
 html, body {
     background:  #0a0a0e;
@@ -106,7 +112,8 @@ input[type="submit"] {
 
 }
 input[type="submit"]:hover {
-    background-color: #465fb3;
+    background-color: var(--dark);
+    transform: scale(1.05);
 }
 img{
     width: 107%;
@@ -128,8 +135,8 @@ img{
   margin-right: 100px;
 }
 .back-button:hover{
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: var(--light);
 }
 
 /* Css for the block1 */

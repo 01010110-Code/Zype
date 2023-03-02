@@ -34,10 +34,12 @@ html{
   .header-button:hover{
     color: white;
     background-color: var(--light);
+    transform: scale(1.05);
   }
   .header-button2:hover{
     color: white;
     background-color: var(--light);
+    transform: scale(1.05);
   }
   .header-button2{
     background-color: var(--dark);
@@ -93,6 +95,7 @@ html{
   .start-button:hover{
     background-color:var(--light);
     color: white;
+    transform: scale(1.05);
   }
 
   .content{
@@ -129,6 +132,7 @@ html{
   }
   .glid-item:hover{
     background-color: #0A1B2A;
+    transform: scale(1.05);
   }
   #client-names{
     color: white !important;
@@ -157,6 +161,7 @@ html{
   .btn-client-info:hover{
     background-color: var(--light);
     color: #ffffff;
+    transform: scale(1.05);
   }
  
   .product-headers{
@@ -182,6 +187,7 @@ html{
 #customer-stories:hover{
   background-color: var(--dark);
   color: white;
+  transform: scale(1.05);
 }
 #product-headers2{
   font-family: 'F1';
@@ -270,6 +276,7 @@ html{
 #explore-button:hover{
   background-color: var(--light);
   color: white;
+  transform: scale(1.05);
 }
 #imgrep{
   width:fill;
@@ -429,6 +436,7 @@ video{
 .block-button:hover{
   background-color: var(--light);
   color: white;;
+  transform: scale(1.05);
 }
 #right-links1{
   color: rgb(228, 226, 226);
@@ -460,6 +468,7 @@ video{
 .contact-button:hover{
   color: white;
   background-color: var(--dark) ;
+  transform: scale(1.05);
 }
 #scrollBtn {
   display: none; 
@@ -479,7 +488,8 @@ video{
 }
 
 #scrollBtn:hover {
-  background-color: var(--dark); 
+  background-color: var(--dark);
+  transform: scale(1.05); 
 }
 #product-head{
   color: rgb(192, 192, 192);
