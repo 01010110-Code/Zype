@@ -1,6 +1,6 @@
 /* styling for the whole page, to fit the color scheme*/
 html, body {
-    background:  #0D0D12;
+    background:  #0a0a0e;
     margin: 0px;
   }
   h1,h2,h3,h4,h5,h6{
@@ -57,9 +57,6 @@ html, body {
     text-align: center;
     margin-top: 0px;
     font-weight: lighter;
-  }
-  #clickhere-link{
-    color: #3D5EC7;
   }
   /* styling for the form */
 form {
@@ -135,22 +132,6 @@ img{
   background-color: white;
 }
 
-/* Css for the video */
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    border: 0.5px solid #0D0C12;
-    height: 600px;
-    padding: 0;
-  }
-  
-  .video-wrapper video {
-    display: block;
-    width: 100%;
-    height: 600px;
-    padding: 0
-  }
-  video{
-    height: 50%;
-    object-fit: cover;
-  }
+/* Css for the block1 */
+
+
