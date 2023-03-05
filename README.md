@@ -6,8 +6,11 @@ Take a sneak peak at the static version of the website: https://01010110-code.gi
 
 # Pages: 
 -Homepage
+
 -Login
+
 -Start now/Sign up
+
 -Contact us
 
 # Status Update:
