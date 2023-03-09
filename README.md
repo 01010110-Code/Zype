@@ -14,7 +14,7 @@ Take a sneak peak at the static version of the website: https://01010110-code.gi
 -Contact us
 
 #Screenshots (homepage): 
-![Screenshot](/screenshots/1.png?raw=true "ss")
+
 ![Screenshot](/screenshots/2.png?raw=true "ss")
 ![Screenshot](/screenshots/3.png?raw=true "ss")
 ![Screenshot](/screenshots/4.png?raw=true "ss")
