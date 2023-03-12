@@ -1,4 +1,7 @@
 # Front-End Web Development Project
+![logo](/assets/zype.png?raw=true "ss")
+
+
 Zype is a portfolio project for a capital & investment company. 
 Made by Bahaa Tantaoui
 
