@@ -12,7 +12,7 @@ html{
   h1,h2,h3,h4,h5,h6{
     font-family: 'F1',sans-serif;
   }
-  p,a,button{
+  p,a,button, label, input{
     font-family: 'F2', sans-serif;
   }
   #logo{
@@ -163,7 +163,7 @@ html{
     color: #ffffff;
     transform: scale(1.05);
   }
- 
+
   .product-headers{
     font-family: 'F1';
     margin-left: 200px;
@@ -250,17 +250,17 @@ html{
 .grid-item3 {
   text-align: center;
   font-size: 30px;
-  background-color: transparent;
+  background-color: #16181E;
   border: transparent 0.5px;
-  border-radius: 19px;
-  margin-left: 85px;}
+  border-radius: 30px;
+  margin-left: 100px;}
 .grid-item4 {
-  background-color: transparent;
+  background-color: #ffffff;
   text-align: center;
-  border: transparent 0.5px;
-  border-radius: 19px;
+  border-radius: 30px;
   font-size: 30px;
-  margin-right: 85px;
+  margin-right: 100px;
+  padding: 0;
 }
 #explore-button{
   background-color: var(--dark);
@@ -278,10 +278,28 @@ html{
   color: white;
   transform: scale(1.05);
 }
+#explore-capital-button
+{
+  background-color: var(--light);
+  color: white;
+  align-content: left;
+  border: 0px transparent;
+  border-radius: 15px;
+  width: 35% ;
+  cursor: pointer;
+  margin-bottom:20px;
+  height: 35px;
+}
+#explore-capital-button:hover
+{
+  background-color: var(--dark);
+  color: white;
+  transform: scale(1.05);
+}
 #imgrep{
   width:fill;
   border: transparent 0.5px solid;
-  border-radius: 19px;
+  border-radius: 25px;
 }
 .grid-containerj {
   display: grid;
