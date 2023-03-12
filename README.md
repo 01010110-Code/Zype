@@ -28,4 +28,6 @@ Made by Bahaa Tantaoui
 
 
 # Status Update:
-76% finished... ^_^
+95% finished... ^_^
+
+Backend section of the website: Soon...
