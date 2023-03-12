@@ -1,110 +1,121 @@
 :root {
-  --dark: #20242C;
+  --dark: #20242c;
   --light: #324976;
-  --background: #0D0D12;
-  --background2: #16181E;
+  --background: #0d0d12;
+  --background2: #16181e;
 }
 /* variables above for the color scheme */
-html, body {
-    background:  #0D0D12;
-    margin: 0px;
-  }
-  h1,h2,h3,h4,h5,h6{
-    font-family: 'F1',sans-serif; 
-  }
-  p,a,button, input, select, textarea,form, label{
-    font-family: 'F2', sans-serif;
-  }
-  body{
-    overflow-x: hidden;
-  }
-  .full-page {
-    margin: 0px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0px;
-    padding: 0px;
-    margin: 0;
-    border: none;
-  }
-  
-  .block1 {
-    background-color: transparent;
-    border: none;
-    width: 100%;
+html,
+body {
+  background: #0d0d12;
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "F1", sans-serif;
+}
+p,
+a,
+button,
+input,
+select,
+textarea,
+form,
+label {
+  font-family: "F2", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.full-page {
+  margin: 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  padding: 0px;
+  margin: 0;
+  border: none;
+}
 
-  }
-  .block2 {
-    background-color: transparent;
-    height: auto;
-    padding-top: 120px;
-    border: none;
-    width: 110%;
-    padding-left: -20px;
-  }
-  #headline{
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    font-size: 36px;
-    margin-top: 50px;
-    margin-bottom: 8px;
-  }
-  #subheader{
-    color: rgb(177, 176, 176);
-    text-align: center;
-    margin-top: 0px;
-    font-weight: lighter;
-  }
-  #clickhere-link{
-    color: #3D5EC7;
-  }
+.block1 {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+.block2 {
+  background-color: transparent;
+  height: auto;
+  padding-top: 120px;
+  border: none;
+  width: 110%;
+  padding-left: -20px;
+}
+#headline {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+#subheader {
+  color: rgb(177, 176, 176);
+  text-align: center;
+  margin-top: 0px;
+  font-weight: lighter;
+}
+#clickhere-link {
+  color: #3d5ec7;
+}
 form {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 0px solid #ccc;
-    border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
 }
 label {
-    display: block;
-    color: rgb(194, 194, 194);
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: 100;
+  display: block;
+  color: rgb(194, 194, 194);
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 100;
 }
 input[type="email"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 input[type="submit"] {
-    background-color: #3D5EC7;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    width: 45%;
-    display: block;
-    margin: auto;
-
+  background-color: #3d5ec7;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 45%;
+  display: block;
+  margin: auto;
 }
 input[type="submit"]:hover {
-    background-color: var(--dark);
-    transform: scale(1.05);
+  background-color: var(--dark);
+  transform: scale(1.05);
 }
-img{
-    width: 107%;
-    padding: -10px;
+img {
+  width: 107%;
+  padding: -10px;
 }
-#password-recovery{
+#password-recovery {
   color: rgb(177, 176, 176);
   text-align: center;
   font-weight: lighter;
@@ -112,7 +123,7 @@ img{
   font-size: 12px;
 }
 .back-button {
-  background-color: #20242C;
+  background-color: #20242c;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -123,7 +134,7 @@ img{
   margin: auto;
   margin-top: 160px;
 }
-.back-button:hover{
+.back-button:hover {
   color: white;
   background-color: var(--light);
   transform: scale(1.05);

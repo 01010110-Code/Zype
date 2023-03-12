@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <link rel="stylesheet" href="styling.css">
-    <link rel="icon" type="image/x-icon" href="assets/newfavicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styling.css" />
+    <link rel="icon" type="image/x-icon" href="assets/newfavicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>Zype | Login</title>
     <style>
       @font-face {
-        font-family: 'F1';
-        src: url('Fonts/gotham-rounded/GothamRounded-Light.otf') format('opentype'),
-             url('Fonts/gotham-rounded/GothamRoundedLight_21020.ttf') format('truetype');
-      } 
+        font-family: "F1";
+        src: url("Fonts/gotham-rounded/GothamRounded-Light.otf")
+            format("opentype"),
+          url("Fonts/gotham-rounded/GothamRoundedLight_21020.ttf")
+            format("truetype");
+      }
       @font-face {
-        font-family: 'F2';
-        src: url('/Fonts/Roboto/Roboto-Light.ttf') format('opentype'),
-             url('/Fonts/Roboto/Roboto-Thin.ttf') format('truetype');
-      } 
-    
+        font-family: "F2";
+        src: url("/Fonts/Roboto/Roboto-Light.ttf") format("opentype"),
+          url("/Fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+      }
     </style>
   </head>
 
   <body>
     <div class="full-page">
-    <div class="grid-container">
+      <div class="grid-container">
         <div class="block1">
-            <img src="assets/space.jpg" alt="Space">
+          <img src="assets/space.jpg" alt="Space" />
         </div>
 
         <div class="block2">
-            <h2 id="headline">Welcome to Zype!</h2>
-            <h5 id="subheader">Don't have an account?<a id="clickhere-link" style="text-decoration: none" href="/internalpages/start-now/start-now.html"> Click Here.</a></h5>
-            <form class="form-horizontal" role="login" id="loginForm">
-                <label for="login">Email:</label>
-                <input type="email" id="email" placeholder="Enter your email address" autocomplete="off" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Enter your password" minlength="8" required>
-                <input type="submit" id="submit" placeholder="Submit">
-            </form>
-            <h5 style="padding-top: -20px;" id="password-recovery">Forgot your password? <a style="color: #3D5EC7 ; text-decoration: none" href="#password-recovery">Click Here</a></h5>
-            <a style="text-decoration: none" href="/index.html"><button class="back-button"> Go back </button></a>
+          <h2 id="headline">Welcome to Zype!</h2>
+          <h5 id="subheader">
+            Don't have an account?<a
+              id="clickhere-link"
+              style="text-decoration: none"
+              href="/internalpages/start-now/start-now.html"
+            >
+              Click Here.</a
+            >
+          </h5>
+          <form class="form-horizontal" role="login" id="loginForm">
+            <label for="login">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email address"
+              autocomplete="off"
+              required
+            />
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              minlength="8"
+              required
+            />
+            <input type="submit" id="submit" placeholder="Submit" />
+          </form>
+          <h5 style="padding-top: -20px" id="password-recovery">
+            Forgot your password?
+            <a
+              style="color: #3d5ec7; text-decoration: none"
+              href="#password-recovery"
+              >Click Here</a
+            >
+          </h5>
+          <a style="text-decoration: none" href="/index.html"
+            ><button class="back-button">Go back</button></a
+          >
         </div>
       </div>
     </div>
   </body>
-  </html>
+</html>

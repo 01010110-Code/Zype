@@ -1,83 +1,96 @@
 :root {
-    --dark: #20242C;
+    --dark: #20242c;
     --light: #324976;
-    --background: #0D0D12;
-    --background2: #16181E;
+    --background: #0d0d12;
+    --background2: #16181e;
   }
-html{
-    background:  #0D0D12;
+  html {
+    background: #0d0d12;
   }
-img{
+  img {
     width: 9.5%;
     padding: 30px;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: 'F1',sans-serif;
   }
-  p,a,button, label, input, select, textarea{
-    font-family: 'F2', sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "F1", sans-serif;
   }
-.sign-up-form{
+  p,
+  a,
+  button,
+  label,
+  input,
+  select,
+  textarea {
+    font-family: "F2", sans-serif;
+  }
+  .sign-up-form {
     padding-right: 400px;
     padding-left: 400px;
-}
-#headline{
+  }
+  #headline {
     color: rgb(235, 234, 234);
     text-align: center;
     font-size: 29px;
     font-weight: 300;
-}
-#subheader{
+  }
+  #subheader {
     color: rgb(154, 154, 154);
     text-align: center;
     font-size: 14px;
     font-weight: 100;
-}
-form {
+  }
+  form {
     width: 600px;
     margin: 0 auto;
     padding: 20px;
-}
-label {
+  }
+  label {
     display: block;
     margin-bottom: 5px;
     color: rgb(154, 154, 154);
     font-weight: 100;
     font-size: 12px;
-}
-input[type="email"],
-input[type="password"],
-input[type="text"],select {
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-}
-input[type="submit"] {
-    background-color: #3D5EC7;
+  }
+  input[type="submit"] {
+    background-color: #3d5ec7;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
     width: 120px;
     cursor: pointer;
-}
-input[type="submit"]:hover {
+  }
+  input[type="submit"]:hover {
     background-color: var(--dark);
     color: white;
     transform: scale(1.05);
-}
-.policies{
+  }
+  .policies {
     color: rgb(154, 154, 154);
     font-size: 12px;
     font-weight: 100;
-}
-a{
+  }
+  a {
     text-decoration: none;
     color: #3e55a1;
-}
-input{
+  }
+  input {
     background-color: rgb(215, 213, 213);
-}
+  }
+  
