@@ -250,12 +250,12 @@ html{
 .grid-item3 {
   text-align: center;
   font-size: 30px;
-  background-color: #16181E;
+  background-image: url(/assets/Invest-Image.png);
   border: transparent 0.5px;
   border-radius: 30px;
   margin-left: 100px;}
 .grid-item4 {
-  background-color: #ffffff;
+  background-image: url(/assets/capital-image.png);
   text-align: center;
   border-radius: 30px;
   font-size: 30px;
@@ -296,11 +296,41 @@ html{
   color: white;
   transform: scale(1.05);
 }
-#imgrep{
-  width:fill;
-  border: transparent 0.5px solid;
-  border-radius: 25px;
+.invest-header
+{
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
 }
+
+.capital-header
+{
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.invest-subheader
+{
+  color: white;
+  font-size: 20px;
+  padding-bottom: 190px;
+}
+.capital-subheader
+{
+  color: white;
+  font-size: 20px;
+  padding-bottom: 190px;
+}
+.button-container-last-section
+{
+  text-align: left;
+}
+
+
+
+
+
+/* footer CSS */
 .grid-containerj {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
