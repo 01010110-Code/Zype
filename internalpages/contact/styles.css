@@ -91,14 +91,16 @@ input[type="name"], select {
 }
 input[type="message"]{
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     height: 70px;
+    padding: 10px 0;
+    vertical-align: top;
+    margin-bottom: 20px;
+    box-sizing: content-box;
 
-}
+  }
 input[type="submit"] {
     background-color: #3D5EC7;
     color: white;
@@ -141,4 +143,4 @@ img{
 
 /* Css for the block1 */
 
-
+/* new modifications */
