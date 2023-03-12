@@ -35,7 +35,3 @@ Overall, Zype is a professional and modern website that effectively showcases th
 
 
 
-# Status Update:
-95% finished... ^_^
-
-Backend section of the website: Soon...
