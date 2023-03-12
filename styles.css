@@ -6,6 +6,7 @@
 }
 html{
     background:  var(--background);
+    scroll-behavior: smooth;
   }
 
   h1,h2,h3,h4,h5,h6{
@@ -153,9 +154,8 @@ html{
     border-radius: 30px;
     height: 30px;
     width: 180px;
-    position: relative;
     border: 0px;
-    
+    margin-top: 30px;
     cursor: pointer;
   }
   .btn-client-info:hover{
