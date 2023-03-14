@@ -29,7 +29,7 @@ Open the index.html file in your web browser.
 Contributions are always welcome! Please create an issue or pull request for any changes or feature requests.
 
 # Credits
-Zype was created by [Your Name Here] and is licensed under the MIT License.
+Zype was created by Bahaa Tantaoui and is licensed under the MIT License.
 
 # Contact
 If you have any questions or concerns, please don't hesitate to contact us at [your email address here]. Thanks for checking out Zype
